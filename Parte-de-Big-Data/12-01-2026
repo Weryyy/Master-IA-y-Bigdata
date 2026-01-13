@@ -1,0 +1,56 @@
+Clase del 12/01/2026
+
+Profe nuevo:
+Ruben Juarez?
+Tiene pinta de tener voz de dormir
+Curriculum extenso muchos masters y bastante aprendizaje en ia al parecer
+Viene de sustituto porque le pidieron un favor
+Tiene clases por la mañana en uni
+su campo de investigación son los vehículos autónomos
+mundo de blockchain, por tema de servodinamica
+Telemetico jefe de un equipo de motos 3 y 2
+tester este año
+Habla mucho de su vida personal
+este tio sabe
+
+
+
+
+Análisis de metricas
+YOLOS
+LLM
+Generación Aumentada por Recuperación (RAG) rnn aprendizaje bajo refuerzo
+cnn
+ReAct
+Programación distribuida con ia
+callbacks a futuro, hilos
+transformer en ia (son tensores)([https://es.wikipedia.org/wiki/Transformador_(modelo_de_aprendizaje_autom%C3%A1tico)]
+tensores son vectores
+vector dos puntos y una direccon
+similidad del coseno se usa con el angulo del vector (alucinacion)
+sesgar
+empezamos con un dataset sesgado, Boston data housing
+Psique humana va de la mano con el sesgo
+hitos
+proyectar datos, imaginar hipótesis, que todas son validas, habría que ratificarlas o descartarlas, acotarlas
+Ver cuando hay que reentrenar los datos
+leer mucho medium.com
+Haciendo check ins asegurarse de que todo esta como se deja
+entorno virtual
+GNNs (Graph Neural Networks)
+Nested Learning	basado por experiencia
+GPT significa "Generative Pre-trained Transformer
+Algoritmo Compass
+epochs, buscamos cualitativos no cuantitativos, calidad mejor que cantidad, aunque la cantidad es importante también
+Overfitting y Underfitting
+preprocessing
+Outlayer, sacar una muestra clave del dataset
+Regresión, hace lo de divide y venceras
+Fine tunnning pasar de datos gordos a datos finos IMPRESCINDIBLE
+Arimas y Sarimas: métodos estadísticos ampliamente utilizados para la predicción de series temporales, con diferencias clave en su capacidad para manejar patrones estacionales.
+
+H1, Creación de Tiendas online
+H2, Ya no es un dia sin iva, mes entero de rebajas en noviembre
+H3, Rebajas constantes
+
+Generame el conjunto de datos de dataset para que se pueda analizar como caso real
