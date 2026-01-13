@@ -1,0 +1,81 @@
+Clase del 13/01/2026
+
+Matrices:
+	Modelo de almacenaje de vectores en un espacio especifico
+
+Los tensores al final son vectores
+
+Estructura de datos;
+	Bases de datos relacionales Entidad relacion
+	no relacionales No existe la relación entonces vamos a hacer una dimensión 2 y 1/2, .json (imaginalo como un cajon de ficheros) 
+		se hacen búsquedas por cajones por asi decirlo, lo que se encuentra dentro se puede dividir en dos , que tienen o no orden 
+	quasi relacionales (mix)
+
+	Big data usa casi siempre las mix (bases de datos de vectoriales)
+
+
+Ej Sacar hipótesis, porque diría que nos lo ha preguntado y ver ambas:
+Lo podría preguntar por la diferencia de datos, al ser unos organizados y sesgados no los hacen correctos para crear algún tipo de ia sin un propósito definido 
+
+data warehouse vs data lake
+
+data warehouse (Seria mas como una separacion de densidades, como agua y aceite)Base de datos centralizada, organizada, y lo comoponen datos procesados
+
+Los data lake (El agua esta en un recipiente pero no sabes donde esta cada particula) permite una mayor escalabilidad y flexibilidad, lo que lo hace ideal para el análisis de big data y aprendizaje automatico, almacenan datos de cualquier tipo en bruto. Los encapsulas con características clásicas, con algún tipo de retricciones 
+
+Data lakehouse, Combina lo mejor de ambas partes, orden limpieza y transacciones seguras, con criterios solid, 
+
+
+Programación orientada a objetos; En lo que se basa El bigdata y la ia
+Objeto
+clase
+Contructor
+Guardas los datos en base de datos
+Nos interesa no perder nuestros objetos mediante herencias y polimorfismos 
+Nodos o clusters
+
+
+
+Un tensor en 2d es una matriz?
+
+usando el algebra lineal guarda dos valores el tensor
+
+con que chisme quiero que se procese con cpu o gpu sequential processing // parallel processing
+Con las gpu distribuimos la carga
+Para entender que es un tensor nos interesa saber que es un hundir la flota(piénsalo como filas y columnas)
+los punto torch (torch.tensor)  
+
+Computación secuencial, lo que hacen las cpu (procesadores), Esto lo usa Numpy
+
+La programación paralela lo que hacen las gpu y procesadores multinucleo
+Se puede usar un orquestador que nos regule cuando un nucleo no este siendo usado, Spark(apache)
+
+programación distribuida
+
+Distribuimos la computación paralela a diferentes equipos, creando especialistas donde se les da las variables que se quieren y rechazamos los datos que no nos interesa, haciendo el análisis previo preprocesando los datos para llegar a que los nodods se compuniquen entre ellos
+
+En arquitecturas mas complejas, se deben comunicar eentre ellos para comunicar la información, (pueden ser un servidor en cluster)
+
+Los datos se usan en las columnas, para que todo se relaciones en 3d, para tener vectores y tensores 
+
+Ejercicio 1.
+Usar dispositivos computacioneles diferentes para ejecutar distintos pedazos de funcionalidad.
+
+Imagina un zoologico con muchas camaras de seguridad. Cada camara de seguridad graba video en formato digital. Las camaras mandan sus datos de video a un cluster de computadoras localizado en las oficinas del zoologico y ese cluster corre algoritmos de analisis de video para detectar animales que se han escapado, el cluster tambien manda datos de video a un servidor computacional en la nube, que analiza terabytes de datos de video para descubrir tendencias hitoricas
+
+Yolov8 procesador de imagenes en tiempo real
+
+Los tensores son increiblemente rapidos, si se utilizan en 4d con el factor tiempo, se debe especificar el uso de torch y el uso de tiempo con GPUs 
+perplot (el profe no lo usa)
+
+Practica de mañana, aprendizaje por refuerzo Q-learning "humor amarillo" con frozen lake tabla q numero de 0s en una misma celda hay cuatro estados trabajaremos con codigo fuente de Open ai gymnasium : https://github.com/Farama-Foundation/Gymnasium
+cada pareja va a elegir un proyecto de que hacer con gymnasium para hacerlo, preguntar a la ia por tematica, proyecto 
+
+firebase studio
+
+crear un proyecto con esto 
+
+
+
+
+
