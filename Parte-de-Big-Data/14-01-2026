@@ -1,0 +1,86 @@
+Resumen de hoy
+Ejercicio de aprendizaje por refuerzo (zanahoria y el palo)
+Algoritmo que usan las tragaperras (Epsilon greedy)
+Q-learning (usa conceptos de la cuantica)
+Los agentes usan todos aprendizaje por refuerzo (Todos se usan con algoritmos) (imaginalo como entrenar a un perro)
+
+Imaginar el entorno como si fuera una matriz donde nuestra ia debe moverse solo, creando el algoritmo de ia,
+desde una casilla inicial a una final, creando asi nuestro primer pseudoagente, las casillas pueden ser seguras o un hole,
+Nuestra ia o agente, solo hace 4 movimientos, la hipotesis es que debe hacerlo en un numero minimo de acciones, 
+creando una secuencia de opciones.
+Creamos el entorno podemos hacerlo con dos versiones (uno con huielo resbaladizo y otra sin hielo)
+lo reseteamos y lo renderizamos
+
+La tabla que usamos por matriz (Q)
+Las filas enumeran los estados
+Las columnas las acciones
+cada celda contiene un valor, una probabilidad, un nnumero, una calidad, a mas calidad mas gana dentro de la ronda
+nuestro agente esta en un estado s y decide que movimiento hacer mediante su probabiliad
+Un espacio vectorial, lugar donde se usan vectores se puede hacer con elementos finitos, 
+Gym se usa para entrenar todo tipo de agentes 
+
+Pasar datos de categoricas a numericos
+
+Piensa en los algoritmos como patrones
+Necesitamos actualizar el estado y la accion (pienaslo como las vidas en los supermario bros)
+Si pasas de nivel se te rellena dicha vida 
+Obtenemos una recompensa de 1 al cambiar de estado, el valor del estado llamemoslo G aumenta en 1 cada vez que consigo un exito 
+Hay que reducir todas las probabiliadades en 1 hasta conseguir el exito. Es decir, me dan recompensa cuando cambio de estado,
+Se entrena por estados a uno se le entrena en el g1 despues en el g2 al completar el anterior y asi sucesivamente
+Los valores denotan la calidad e una accion en un estado especifico 
+El nuevo nivel lo comparamos con el nivel maximo que ya tenemos, el valor actual mas la recompensa sera el valor mas alto 
+Es una formula de Q learning la tasa de aprendizaje y el factr de descuento, cuanto le importa a la gente el factor recompensa, 
+si le recompensa, se hace el esfuerzo, pasar tiempo en x para conseguir aprender mas, el factor de descuento es lo que nos dice 
+si vale la pena
+No estamos entrenando una red neuronal, estamos entrenando un agente especialista
+
+three.js
+
+Mañana hacer nuestro propio agente de un tema que queramos por parejas con el tipo de entrenamiento dado hoy de aprendizaje 
+por refuerzo 
+
+
+Epsilon Greedy:
+Una descripcion un poco rara
+Observando tendencias, el agente siempre elige la opcion con mayor probabilidad de ganar, si tiene la accion un valor 
+distinto de cero (distinto de cero)
+Es decir se tiene que buscar no buscar siempre si no saber perder para ganar? Ganando siempre a veces se llega muy cerca y
+ganando y perdiendo se llega muy lejos
+Elegir una accion aleatoria para intentar encontrar otras aun mejores explicaciones
+Se debe lograr el equilibrio entre estos dos comportamientos, si el agente solo se centra en la explotacion no puede probar 
+nuevas soluciones y por lo tanto deja de aprender, se debe salir de la norma, elegir diferentes caminos, Por lo tanto queremos
+cambiar este parametro con el tiempo al inicio del entrenamiento queremos explorar el entorno al maximo, sin embargo la 
+exploracion se vuelve cada vez menos interesante ya que el agente ya conoce todos los posibles pares de estados y acciones a 
+tomar. Primero trabajamos con Q learning y despues al llegar la segunda fase usamos un orquestador, plantearse todo vamos
+La idea en general es buscar el equilibrio entre ganar y perder para ganar. 
+Epsilon nos busca lo que nos estabiliza con lo que necesitamos, generar algo similar a una rutina 66/33 8/8/8
+Podemos reducir el valor de Epsilon durante un tiempo para conseguir algo a largo plazo 
+Epsilon exploracion random action
+1 - Epsilon explotacion accion con el mayor valor (la idea es pegarse la hostia)
+cuando llegas al cien mediante una linea asi:\ es que exploraste todo
+El objetivo es al final ganar y saber como ganar y porque (dscubriendo el camino en vez de seguirlo por asi decirlo)
+Guardar datos en bases de datos relacionales 
+
+Los agentes tienen mas de 4 dimensiones, hay 6. Un agente con su dimension y su tiempo, otro con su dimension
+y su tiempo propio y la que las conecta, piensa de forma relativa con que tu tiempo es diferente al de otro agente
+que funciona a otra velocidad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
