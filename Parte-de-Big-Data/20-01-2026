@@ -52,7 +52,40 @@ Neo 4J, cosmo DB
 Red convolucional, cnn (matriz y filtros) se aplica un filtro para que a + b sea c transformacion lineal de los datos 
 que entran mas los datos que salen.
 Les añadimos las conexiones entre los nodos.
-Las capas ocultas, sigmoides, filtros de las redes neuronales, adam, donde ponemos los pesos
+Las capas ocultas, sigmoides, filtros de las redes neuronales, adam, donde ponemos los pesos que nodo tiene mas probabilidad
+si un nodo solo tiene un vecino y otro tiene 500 imagina que todas las personas quieren salir a la vez eso es lo que significa 
+la matriz y los vecinos, por lo que hay que normalizar los resultados, adaptandose al numero x de vecinos.
+Si metemos la convolucional se pueden hacer mayores ponderaciones.
+
+implementacion de GCN, nos da una serie de capas, funciona solo mediante una ReLu (funcion de activacion) y una capa de salida 
+lineal. 
+Con gran trafico de informacion puede llegar a colapsar la red si no hay infraestructura suficientemente capaz de canalizar
+Todos los grafos pueden ser entendidos como un alcantarillado donde el flujo de datos no es constante, para eso usamos las
+ReLu para activar o desactivar donde todo este a 0 para pasarlas a activado cuando pase un dato de una señal.
+(Estanque de tormentas)
+Les metemos varias capas de mallado (apilar varias capas de graficos)
+El ciclo de entrenamiento es estandar 
+Normalizamos la tabla para poder verlo en 3d los grafos nos va a interesar que estemos en 3d para cualquier grafo
+
+Redes de atencion Grafica, Autoatencion.
+
+En lugar de calcular pesos estaticos basados en grados de los nodos se asignan pesos dinamicos mediante un metodo llamado 
+autoatencion, La idea principal de las GAT es que algunos vecinos son mas importantes que otros independientemente de sus
+grados de nodo, la variable fundamental es el tiempo, pues a lo largo del tiempo cambia esos datos estaticos, lo que buscamos 
+es que el entrenamiento sea casi al instante.
+Un jefe ordena y quiere una cosa fija haces un reporte y ya
+Un lider comparte su vision y enseña, no te manda, deja que aprendas, da autonomia
+Algoritmo de consenso
+
+
+
+
+
+
+
+
+
+
 
 
 
