@@ -1,0 +1,5 @@
+GNN (redes neuronales de grafico)
+Grafo: puntos conectados, escrito en latin, punto a inicio, camino y destino, podemos procesar datos de forma diferente a las 
+tablas, con las redes neuronales de grafo podemos hacer cosas diferentes, generan un contexto GCN, buscamos usar PytorchGeometric
+grafo en 4 dimensiones, 3 dimensiones y varianle tiempo
+Entidad relacion, tablas, 
