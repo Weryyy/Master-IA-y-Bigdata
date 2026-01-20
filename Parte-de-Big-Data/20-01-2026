@@ -76,6 +76,37 @@ es que el entrenamiento sea casi al instante.
 Un jefe ordena y quiere una cosa fija haces un reporte y ya
 Un lider comparte su vision y enseña, no te manda, deja que aprendas, da autonomia
 Algoritmo de consenso
+Hay vecinos que pesan mas que otros 
+
+Libreria importante pytorch geometric PyG 2 
+CiteSeer google de listos jjsjsjsjs
+3 conjuntos de datos de grafis clasicos
+
+Grafo de conocimientos hay que limpiar las categorias
+cada dataset tiene caracteristicas diferentes por ejemplo:
+caracteristicas de los nodos representan la ausencia o presencia de palabras en un articulo por ejemplo
+knowledge graph
+Capa de atencion grafica
+Hay nodos que pesan mas que otros
+Cuatro pasos:
+1. Transformacion lineal
+  pila cola pull executor
+  Pila (Stack): Funciona bajo el principio LIFO (Last In, First Out).  
+    El último elemento añadido es el primero en ser eliminado. 
+    Se usa comúnmente para operaciones como el botón "Atrás" en navegadores, deshacer acciones (undo),
+    o gestionar llamadas de funciones en la pila de ejecución de un programa (como en Java).
+  Cola (Queue): Funciona bajo el principio FIFO (First In, First Out).  
+    El primer elemento añadido es el primero en ser procesado. 
+    Es útil en escenarios como atención al cliente, colas de impresión, o procesamiento de tareas en orden de llegada.
+  Analizas trozo a trozo y te quedas con la variancia (Cuartiles tercertiles) sacas de informacion el peso
+2. funcion de activacion
+  al tener ese alfa (hay que añadir no linealidad) divide y venceras, construir una red neuronal sabiendo como puedes construir
+  esos datos con ReLu 
+  filtra si activa o no con estos datos 
+3. normalizacion softmax
+  La salida de la red neuronal no esta normalizada, es un problema, queremos comparar coeficientes, necesitamos usar una escala
+  unitaria debemos saber que nodo pesa mas para prestarle mayor atencion, se usa casi siempre softmax
+4. Atencion de multiples cabezas
 
 
 
