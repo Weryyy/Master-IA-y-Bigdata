@@ -19,3 +19,35 @@ local, para menor latencia y que sea instantaneo.
 Debemos guardar los datos en una base de datos super rapida para eso usamos:
 spaning tree: usa el numero minimo de aristas, conectando nodos con aristas y las aristas nos dan el camino mas rapido
 no nos da la informacion, pero si la cabezera de esos datos
+Vamos a entender como pintamos las cabeceras en las tcp
+dentro de las gnn trabajamos con nodos y aristas
+los nodos son las rotondas en terminos de carretera las aristas son los puntos que van de rotonda a rotonda, las mejores aristas 
+son las que tienen mas curvas, una carretera son dos puntos entre rotondas.
+Teoria de grafos lo del tiempo relativo y los nodos y aristas, buscar una ruta alternativa la mas rapida
+Redes, variable espacio para que el canal se amplie (datos) mesh computing.
+Conexiones de grafo son: Dos listas son dos objetos dos dimensiones(en el ejemplo)
+uno almacena nodos origen y otra los nodos destino
+(Metodo del chisme goship) asi se expande el chisme por todos lados muy rapido, como en un pueblo pequeño
+chisme computacional, push y pull como github
+canal fino mesh
+canal gordo chisme
+deben de haber varios agentes para determinar si va al cloud computing o al mesh
+Partimos de que no estan cifrados
+tablas de hash, varias tablas resultan en hashear, hacer un bloques de cifrado, blockchain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
