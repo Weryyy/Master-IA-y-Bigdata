@@ -21,8 +21,8 @@ spaning tree: usa el numero minimo de aristas, conectando nodos con aristas y la
 no nos da la informacion, pero si la cabezera de esos datos
 Vamos a entender como pintamos las cabeceras en las tcp
 dentro de las gnn trabajamos con nodos y aristas
-los nodos son las rotondas en terminos de carretera las aristas son los puntos que van de rotonda a rotonda, las mejores aristas 
-son las que tienen mas curvas, una carretera son dos puntos entre rotondas.
+los nodos son las rotondas en terminos de carretera las aristas son los puntos que van de rotonda a rotonda, las mejores 
+aristas son las que tienen mas curvas, una carretera son dos puntos entre rotondas.
 Teoria de grafos lo del tiempo relativo y los nodos y aristas, buscar una ruta alternativa la mas rapida
 Redes, variable espacio para que el canal se amplie (datos) mesh computing.
 Conexiones de grafo son: Dos listas son dos objetos dos dimensiones(en el ejemplo)
@@ -34,8 +34,15 @@ canal gordo chisme
 deben de haber varios agentes para determinar si va al cloud computing o al mesh
 Partimos de que no estan cifrados
 tablas de hash, varias tablas resultan en hashear, hacer un bloques de cifrado, blockchain
-
-
+Para ipsf, debemos buscar por contenido, que es el archivo, red persona a persona, los datos estan cortados y distribuidos y
+alguien tiene una llave para juntar todos esos datos, al dividir el archivo le mete hash y solo al quitarle el hash tienes el
+archivo completo
+las matrices dispersas (las bases de datos) tienen un primary key imaginalo como una yincana si tengo 2000 datos lo reparto
+en 4 sitios de 500 la idea es que si pillan una parte no tengan el total.
+Listas de coordenadas, matriz de adyacencia, donde hay 1 se tocan donde hay 0 no se toca
+Una matriz de adyacencia no es eficiente con las coordenadas, se infiere apartir del edge, solo quiero los 1s
+Ponemos etiquetas, que nos define el almacenar los datos de forma eficiente, pasando por encima de estos. Solo se leen estas
+etiquetas a modo de indice clasificandolas, usamos las etiquetas obviando que los datos de dentro estan ya procesados
 
 
 
