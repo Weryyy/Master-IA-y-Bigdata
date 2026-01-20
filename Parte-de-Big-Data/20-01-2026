@@ -125,8 +125,22 @@ Ejercicio
 hacer las gan
 Mañanda damos el GraphSAGE
 
-minority report
+minority report falsificadores y detectives
 
+Queremos hacer un minority report de verdad de falsificadores y detectives
+de este estilo pero con la trama de minority report:
+Una GAN (Generative Adversarial Network o Red Generativa Antagónica) es un tipo de arquitectura de inteligencia artificial que consiste en dos redes neuronales que compiten entre sí en un juego de "suma cero".
+
+Fue propuesta por Ian Goodfellow en 2014 y se ha convertido en la base de la creación de contenido sintético (imágenes, música, video).
+
+¿Cómo funciona? El juego del "falsificador" y el "detective"
+Para entenderlo fácilmente, imagina que tienes dos modelos trabajando juntos:
+
+El Generador (El Falsificador): Su objetivo es crear datos (por ejemplo, imágenes de rostros humanos) que parezcan tan reales que puedan engañar al otro modelo. Empieza creando ruido aleatorio y va mejorando con la práctica.
+
+El Discriminador (El Detective): Su objetivo es examinar una imagen y decidir si es "Real" (proviene del conjunto de datos original) o "Falsa" (creada por el generador).
+
+A medida que el entrenamiento avanza, el Generador se vuelve experto en crear realismo y el Discriminador se vuelve experto en detectar detalles minúsculos. Al final, el Generador es capaz de crear contenido indistinguible de la realidad.
 
 
 
