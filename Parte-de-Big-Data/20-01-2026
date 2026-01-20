@@ -43,7 +43,16 @@ Listas de coordenadas, matriz de adyacencia, donde hay 1 se tocan donde hay 0 no
 Una matriz de adyacencia no es eficiente con las coordenadas, se infiere apartir del edge, solo quiero los 1s
 Ponemos etiquetas, que nos define el almacenar los datos de forma eficiente, pasando por encima de estos. Solo se leen estas
 etiquetas a modo de indice clasificandolas, usamos las etiquetas obviando que los datos de dentro estan ya procesados
+La mascara da el tamaño del tubo
+Le pasamos una mascara a la matriz  1 true 0 false , despues nos cargamos los nodos que no tengan contenido, se separan 
+en forma de test y train la mascara nos muestra cuales usar para el entrenamiento y cuales para el test 
+si el grafo es dirigido significa que no es simetrica, la direccion de las aristas influye en las conexiones entre nodos.
+Neo 4J, cosmo DB
 
+Red convolucional, cnn (matriz y filtros) se aplica un filtro para que a + b sea c transformacion lineal de los datos 
+que entran mas los datos que salen.
+Les añadimos las conexiones entre los nodos.
+Las capas ocultas, sigmoides, filtros de las redes neuronales, adam, donde ponemos los pesos
 
 
 
