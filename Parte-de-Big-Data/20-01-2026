@@ -1,5 +1,21 @@
 GNN (redes neuronales de grafico)
-Grafo: puntos conectados, escrito en latin, punto a inicio, camino y destino, podemos procesar datos de forma diferente a las 
-tablas, con las redes neuronales de grafo podemos hacer cosas diferentes, generan un contexto GCN, buscamos usar PytorchGeometric
+Grafo: puntos conectados, escrito en latin, punto a inicio, camino y destino, podemos procesar datos de forma diferente a 
+las tablas, con las redes neuronales de grafo podemos hacer cosas diferentes, generan un contexto GCN, buscamos usar 
+PytorchGeometric version 2
 grafo en 4 dimensiones, 3 dimensiones y varianle tiempo
-Entidad relacion, tablas, 
+Nos dan un contexto completamente diferente para los datos, gestiona la automatizacion para buscar caminos, no ha base de 
+entrenar
+si no a base de usar otros caminos minimos, usamos tambien networkx como libreria principal 
+Entidad relacion, tablas. Imaginalo como Packet tracer, se usa para relaciones entre objetos, 
+
+Clasificacion de nodos segun patrones, saca tensores, hacemos lo mismo de siempre(sacamos un patron con ese tensor haciendo
+una matriz)
+Edge computing: Es un modelo informático distribuido que acerca el procesamiento y almacenamiento de datos 
+a la fuente de generación, como dispositivos IoT, cámaras de vigilancia o sensores, en lugar de enviarlos a centros de datos
+o la nube centralizada.  Este enfoque reduce significativamente la latencia, mejora los tiempos de respuesta y ahorra ancho 
+de banda, lo que es esencial para aplicaciones que requieren decisiones en tiempo real
+nos permite respuestas inmediatas, es justo lo contrario de las RNN, en vez de tener el cloud computing, lo tenemos en
+local, para menor latencia y que sea instantaneo.
+Debemos guardar los datos en una base de datos super rapida para eso usamos:
+spaning tree: usa el numero minimo de aristas, conectando nodos con aristas y las aristas nos dan el camino mas rapido
+no nos da la informacion, pero si la cabezera de esos datos
