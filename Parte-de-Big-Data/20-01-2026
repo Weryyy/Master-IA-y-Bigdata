@@ -105,9 +105,27 @@ Cuatro pasos:
   filtra si activa o no con estos datos 
 3. normalizacion softmax
   La salida de la red neuronal no esta normalizada, es un problema, queremos comparar coeficientes, necesitamos usar una escala
-  unitaria debemos saber que nodo pesa mas para prestarle mayor atencion, se usa casi siempre softmax
+  unitaria debemos saber que nodo pesa mas para prestarle mayor atencion, se usa casi siempre softmax (moneyball)
+  
 4. Atencion de multiples cabezas
+  transformador no se que de Laplace, aqui trabajamos con vectores de nuevo
+  Añades "el multiverso" a lo anterior, todo con todo 
+  basicamente replicar los mismo tres pasos iniciales varias veces para que salgan todas las probabilidades 
+  Promedio y concatinacion 
 
+Implementacion de una red de atencion grafica
+convolucion
+una primera capa concatena 8 salidas (atencion multicabeza)
+segunda capa con una salida
+
+GAN
+Se debe crear una estructura de 3 dimensiones, clusterizandolas y los nodos deben ser entrenados en dichos clusteres
+
+Ejercicio
+hacer las gan
+Mañanda damos el GraphSAGE
+
+minority report
 
 
 
