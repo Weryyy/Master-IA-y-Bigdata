@@ -1,0 +1,20 @@
+Trabajar por lotes muy pequeños 
+Gat con Gan son tediosas de entrenar pero 
+la idea es usar el descenso de gradiente con lotes
+muestreo de vecinos:
+Mini-batch gradient descent works by breaking down a dataset into smaller batches. During training, 
+we compute the gradient for every mini-batch instead of every epoch (batch gradient descent) or 
+every training sample (stochastic gradient descent). Mini-batching has several benefits:
+Improved accuracy — mini-batches help to reduce overfitting (gradients are averaged), as well as variance in error rates
+Increased speed — mini-batches are processed in parallel and take less time to train than larger batches
+Improved scalability — an entire dataset can exceed the GPU memory, but smaller batches can get around this limitation
+agregacion:
+  de medias similar a un enfoque GCN
+  de LSTM
+  de pooling
+Se va a usar clusterizacion 
+si o si debemos usar Redes de grafos con GraphSAGE
+se busca trabajar en un entorno paraa acosumbrarse al entorno de produccion real
+como ejemplo del dia:
+food pairing ai genetica de alimentos son concordantes no disonantes, en la base de datos esta dicha genetica.
+web semantica y rdfs
