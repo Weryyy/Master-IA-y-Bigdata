@@ -1,0 +1,62 @@
+mapbox
+HoloViews opensource
+HoloViz
+Pandas
+geo pandas
+ibis
+duckDB
+hvPlot.HoloViz.org
+colorcet.holoviz.org
+DECK.GL esto para visualizar a gran escala datos en web
+mockup de datos
+siquiero ver una tabla se pueden acotar datos en vez de tener que filtrarlo mas tarde
+desde demo.bokeh.org
+repaso
+libreria panel parte estatica
+  holoViz 
+datashader
+DECK.GL
+bokeh
+Dask
+  Añadidos de dask (aprender bien esto):
+  Data bricks
+  Parquet
+  big pandas 
+  paralel for loops
+  Big arrays Xgboosts
+  Optuna optimizacion de hyperparametros, sirven para asignar variables de confuguracion 
+  externas que se esablecen manualmente antes del entrenamiento para controlar el aprendizaje
+  paralelizacion facil, en medium hay un articulo (busqueda eficiente de hiperparametros con 
+  optuna) optuna debe estar desde el principio al crear el dataset, Xgboost.ai, lightgbm, catboost
+  gradientes: operacion vectorial, usa derivadas parciales, calcula la alucinacion, campo vectorial
+  se deben escalar y ser flexibles (los gradientes)
+  LightGBM, usa aprendizaje por refuerzo basado en arboles de decision, para incrementar el 
+  uso de memoria
+  Se usa como regla xgboost y optuna
+  optuna se empareja con cualquier otra libreria para machine learning
+Rapids la parte de los entrenos para hacerlo mas rapido para cuando usamos muchos datos
+rapids.ai 
+amazon usa las GNN y deep Graph librarys
+cuML random forest
+UMAP
+Microscopium
+Chartify
+Arrow tensores vectores
+networkX
+Polars
+Mistic
+xarray mejora los datos, optimizacion
+kubeflow docker especializado
+hughing face
+nuclio
+
+
+
+
+
+
+
+
+
+
+
