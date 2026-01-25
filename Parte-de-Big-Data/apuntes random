@@ -18,4 +18,4 @@ Xarray
 Generar propios datos sinteticos generados con algoritmos de entornos humanos, usados con neo4j
 parquet con arrow analisis temporales y lineales 
 hpc para procesar todos los crimenes por ejemplo, arquitectura para tiempo real
-
+kubeflow
