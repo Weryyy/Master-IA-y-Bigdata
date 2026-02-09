@@ -16,7 +16,10 @@ Transformers, tensores, vectores, modelos gráficos probabilísticos, de caja ne
 Arc Agi
 Coursera Deep learning
 
-Optimizar pesos, funciones de activación, perceptrón multicapa, función de coste debe disminuir, gradiente, pendiente, SageMath no recomendado usar otras cosas, Keras, cross fold validation, mirar que transformer usar para cada modelo, sigmoide, cambiar los porcentajes de test y train, Adam por ejemplo es el optimizador, el ritmo que va a dar los saltos con un learning rate, cambiando pesos iniciales, los, entropía, métricas,Feature subset selection process, pca, feature selection, xgboost se usa en Santander el banco, para mejorar rendimiento computacional se puede pasar a C con callbacks desde Python, Data mining, Weka 3 hecho en java algoritmo A-star y 4.5 , ver patrones, distribuciones en los datos, state of the art dentro de cada modelo, buscar la mejor inferencia y pasarlo a bajo nivel para llevar a producción, cudNN
+Optimizar pesos, funciones de activación, perceptrón multicapa, función de coste debe disminuir, gradiente, pendiente, SageMath no recomendado usar otras cosas, Keras, cross fold validation, mirar que transformer usar para cada modelo, 
+sigmoide, cambiar los porcentajes de test y train, Adam por ejemplo es el optimizador, el ritmo que va a dar los saltos con un learning rate, cambiando pesos iniciales, los, entropía, métricas,Feature subset selection process, pca, feature selection, 
+xgboost se usa en Santander el banco, para mejorar rendimiento computacional se puede pasar a C con callbacks desde Python, Data mining, Weka 3 hecho en java algoritmo A-star y 4.5 , ver patrones, distribuciones en los datos, state of the art dentro de cada modelo, 
+buscar la mejor inferencia y pasarlo a bajo nivel para llevar a producción, cudNN
 revive remix
 
 Fundamentos BlockChain
@@ -37,4 +40,4 @@ si yo tengo un modelo y este genera una inferencia, con zksin saber la arquitect
 Instalar MetaMask Red Sepolita Obtener ETH de prueba
 Objetivo llegar a hacer algo descentralizado teniendo un propio modelo
 
-Hablamos en clase de que queremos hacer algo mas orientado a trabajo para data scientist, KPIs, ETLs, Powerbi, analizar datos etc. Buscar algo complementario a la ia
+Hablamos en clase de que queremos hacer algo mas orientado a trabajo para data scientist, KPIs, ETLs, Powerbi, analizar datos etc. Buscar algo complementario a la ia, Intentar hacer el XAi, modelos de caja negra
