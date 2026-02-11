@@ -1,0 +1,22 @@
+Data lake house visto con ruben
+Cryptolake - por ver con joseluis
+nos explica que buscan las empresas, miran los proyectos que tiene uno en el github por ejemplo
+
+Excract transform y load tambien dado con ruben
+Pimes
+websockets pipeline demostrar arquitectura datalake house iceberg
+PostgreSQL Cryptolake dual pipeline (batch diario)streaming + batch unificado
+IaC completo Terraform + Docker reproducible (estandar a dia de hoy) Infraestructura como codigo
+validacion continua
+
+Arquitectura:
+Fas api streamlit binance WS CoinGecko Fear&Greed
+Airflow
+Arquitectura Medallion bronze silver gold
+Stack tecnologico:
+Apache kafka, spark, iceberg(ACID), airflow dbt core 
+transformacion con dbt modelado dimensional Star schema
+Prometheus grafana dbt tests data contracts
+Devops CI/CD amazon S3 clusters spark Networking aws docker compose
+Riuff mypy
+minio 
